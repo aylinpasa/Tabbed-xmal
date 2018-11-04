@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Homework1.Tabbed.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="HAKKINDA" >
+        <StackLayout>
+
+            <Label Text="Bölüm Hakkında" TextColor="Red" />
+
+            <Label Text="Ülkemizde sanayinin ve teknolojinin gelişmesine bağlı olarak bilgisayar teknolojisi konusunda deneyimli ve nitelikli teknik personele gereksinim her geçen gün daha da artmaktadır. Anadolu Üniversitesi Bilgisayar Mühendisliği Bölümü, ülkemizin bu anlamda ihtiyacı olan güncel bilgi birikimine sahip bilgisayar mühendisleri yetiştirmek amacıyla 1993 yılında kurulmuş olup 2000-2001 öğretim yılında lisans düzeyinde eğitime başlamıştır. Bölümümüz, bu tarihten beri kaliteli eğitim anlayışından ödün vermeden, hem akademik kadrosunu hem de altyapısını bilgisayar teknolojilerindeki değişimlere ayak uyduracak şekilde geliştirmekte; bilgili, bilinçli, donanımlı ve etik değerlere önem veren Bilgisayar Mühendisleri yetiştirmektedir. Lisans programının yanında yüksek lisans ve doktora eğitimi de verilmektedir." ></Label>
+
+            <Label Text="Misyon" TextColor="Red"/>
+
+            <Label Text="Özgörevimiz, çağdaş ve evrensel nitelikte bilgi üreten, bu bilgiyi toplumun faydası için kullanan, temel değerlerimizi benimsemiş, mesleklerinde lider konumda olan mühendisler yetiştirmektir."/>
+
+            <Label Text="Vizyon" TextColor="Red"/>
+
+            <Label  Text="Vizyonumuz, mezunlarımızın ve öğretim elemanlarımızın geliştirdiği nitelikli projeler ve toplumsal katkılarıyla gerek yurtiçi gerekse yurtdışındaki Bilgisayar Mühendisliği Bölümleri arasında önde gelenlerden biri olmaktır"/>
+
+            <Label Text="Temel Değerler" TextColor="Red" />
+
+            <Label Text="Bilimsellik  "/>
+
+            <Label Text="İnsan Odaklılık  "/>
+
+            <Label Text="Yenilikçilik  "/>
+
+            <Label Text="Mükemmeliyetçilik  "/>
+
+            <Label Text="Kararlılık "/>
+
+            <Label Text="Duyarlılık "/>
+
+            <Label Text="İş Etiğine Bağlılık "/>
+
+            <Label Text="Yaşam Boyu Öğrenme Bilinci"/>
+
+        </StackLayout>
+
+    </ContentPage>
+    
+    <ContentPage Title="KİŞİLER" >
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <BoxView  Grid.Column="0" Grid.Row="0" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Dr.Öğr. Üyesi Ahmet ARSLAN"  Grid.Row="0" Grid.Column="0" TextColor="White" HorizontalOptions="EndAndExpand" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" Grid.Column="0" Grid.Row="0" Margin="20,40,20,20"  />
+
+            <BoxView  Grid.Column="1" Grid.Row="0" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Prof.Dr. Yaşar HOŞCAN"  Grid.Row="0" Grid.Column="1" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg" Grid.Column="1" Grid.Row="0" Margin="20,40,20,20" />
+
+            <BoxView  Grid.Column="2" Grid.Row="0" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Assoc.Prof.Dr. Serkan GÜNAL"  Grid.Row="0" Grid.Column="2" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/serkangunal.jpg" Grid.Column="2" Grid.Row="0" Margin="20,40,20,20" />
+
+            <BoxView  Grid.Column="0" Grid.Row="1" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Assoc.Prof.Dr. Cihan KALELİ"  Grid.Row="1" Grid.Column="0" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/ckaleli.jpg" Grid.Column="0" Grid.Row="1" Margin="20,40,20,20" />
+            
+            <BoxView  Grid.Column="1" Grid.Row="1" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL"  Grid.Row="1" Grid.Column="1" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/akuysal.jpg" Grid.Column="1" Grid.Row="1"  Margin="20,40,20,20"/>
+            
+            <BoxView  Grid.Column="2" Grid.Row="1" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Dr.Öğr. Üyesi Alper BİLGE"  Grid.Row="1" Grid.Column="2" TextColor="White"  HorizontalOptions="End"/>
+            <Image Source="http://ceng.eskisehir.edu.tr/img/abilge.png" Grid.Column="2" Grid.Row="1" Margin="20,40,20,20"/>
+            
+            <BoxView  Grid.Column="0" Grid.Row="2" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ"  Grid.Row="2" Grid.Column="0" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/sevcany.jpg" Grid.Column="0" Grid.Row="2" Margin="20,40,20,20"/>
+            
+            <BoxView  Grid.Column="1" Grid.Row="2" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Res.Asst.Dr. Burcu YÜREKLİ YILMAZEL"  Grid.Row="2" Grid.Column="1" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/byurekli.jpg" Grid.Column="1" Grid.Row="2" Margin="20,40,20,20"/>
+            
+            <BoxView  Grid.Column="2" Grid.Row="2" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Lect. Özgür ÖZŞEN"  Grid.Row="2" Grid.Column="2" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg" Grid.Column="2" Grid.Row="2"  Margin="20,40,20,20"/>
+            
+            <BoxView  Grid.Column="0" Grid.Row="3" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Lect. Emre KAÇMAZ"  Grid.Row="3" Grid.Column="0" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/ekacmaz.jpg" Grid.Column="0" Grid.Row="3" Margin="20,40,20,20"/>
+
+            <BoxView  Grid.Column="1" Grid.Row="3" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Lect. Reha Oğuz ALTUĞ"  Grid.Row="3" Grid.Column="1" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/roaltug.jpeg" Grid.Column="1" Grid.Row="3" Margin="20,40,20,20"/>
+
+            <BoxView  Grid.Column="2" Grid.Row="3" BackgroundColor="DarkRed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Res.Asst. Alper YARGIÇ"  Grid.Row="3" Grid.Column="2" TextColor="White" HorizontalOptions="End" />
+            <Image Source="http://ceng.eskisehir.edu.tr/img/ayargic.jpg" Grid.Column="2" Grid.Row="3" Margin="20,40,20,20"/>
+
+        </Grid>
+
+    </ContentPage>
+
+    <ContentPage Title="ALTYAPI" >
+
+        <StackLayout>
+            <TableView  Intent="Form">
+                <TableRoot>
+                    <TableSection>
+
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B1.jpg" Text="Derslik-B1" Detail="Kapasite:36" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B2.jpg" Text="Derslik-B2" Detail="Kapasite:15" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B3.jpg" Text="Derslik-B3" Detail="Kapasite:18" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B4.jpg" Text="Derslik-B4" Detail="Kapasite:24" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B5.jpg" Text="Derslik-B5" Detail="Kapasite:15" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B6.jpg" Text="Derslik-B6" Detail="Kapasite:24" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Class_B7.jpg" Text="Derslik-B7" Detail="Kapasite:54" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Lab_PC1.jpg" Text="Lab-01" Detail="Kapasite 61 PC" />
+                        <ImageCell ImageSource="http://ceng.eskisehir.edu.tr/Documents/Lab_Mac1.jpg" Text="Lab-02" Detail="Kapasite:24 iMAC" />
+
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+
+
+    </ContentPage>
+
+        <ContentPage Title="DERSLER" >
+        <StackLayout>
+
+            <Label Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri" TextColor="Red" />
+
+            <Label Text="BIL519 - İleri Algoritma Analizi"/>
+
+            <Label Text="BIL551 - İleri Veri Tabanı Yönetim Sistemleri"/>
+
+            <Label Text="BIL561 - Bulanık Sinir Ağları"/>
+
+            <Label Text="BIL567 - Öneri Sistemlerine Giriş"/>
+
+            <Label Text="BIM101 - Bilgisayar Programlama I"/>
+
+            <Label Text="BIM203 - Mantık Tasarımı"/>
+
+            <Label Text="BIM207 - Bilgisayar Programlama III"/>
+
+            <Label Text="BIM209 - Yazılım Tasarlama ve Geliştirme Prensipleri"/>
+
+            <Label Text="BIM213 - Veri Yapıları ve Algoritmalar"/>
+
+            <Label Text="BIM302 - Bilgisayar Ağları"/>
+
+            <Label Text="BIM303 - Mikrobilgisayarlar"/>
+
+            <Label Text="BIM305 - Bilgisayar Organizasyonu"/>
+
+            <Label Text="BIM306 - İşletim Sistemleri"/>
+
+            <Label Text="BIM308 - Web Sunucu Programlama"/>
+
+            <Label Text="BIM309 - Yapay Us"/>
+
+            <Label Text="BIM313 - İleri Programlama Teknikleri"/>
+
+            <Label Text="BIM314 - Hesaplama Kuramı"/>
+
+            <Label Text="BIM405 - Proje Yönetimi"/>
+
+            <Label Text="BIM423 - Yazılım Mühendisliği"/>
+
+            <Label Text="BIM437 - Bilgisayar Mühendisliği Tasarımları"/>
+
+            <Label Text="BIM439 - Veritabanı Yönetim Sistemleri Uygulamaları"/>
+
+            <Label Text="BIM451 - MVC ile Web Sunucu Programlama"/>
+
+            <Label Text="BIM466 - Bulanık Mantık"/>
+
+            <Label Text="BIM478 - Yönetim Bilişim Sistemleri"/>
+
+            <Label Text="BIM485 - Bilgisayar Bilimlerinde Araştırma I - L (Alper Bilge)"/>
+
+            <Label Text="BIM488 - Örüntü Tanımaya Giriş"/>
+
+            <Label Text="BIM490 - Bilgi Erişim Sistemleri"/>
+
+            <Label Text="BIM492 - Tasarım Örüntüleri"/>
+
+            <Label Text="BIM493 - Mobil Programlama I"/>
+
+            <Label Text="İST252 - Olasılık ve İstatistik"/>
+
+            <Label Text="MAT249 - Lineer Cebir ve Diferansiyel Denklemler"/>
+
+            <Label Text="MAT806 - Matematik II"/>
+
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
